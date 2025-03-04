@@ -1,42 +1,42 @@
 # Advanced Java Programming Assignments
 
 ## Overview
-This repository contains my assignments for the "Advanced Java Programming" course (20554) at The Open University of Israel. Each assignment is labeled as `mman11`, `mman12`, etc., corresponding to the official coursework structure.
+This repository contains my assignments for the "Advanced Java Programming" course (20554) at The Open University of Israel. Each assignment is labeled as `maman11`, `maman12`, etc., corresponding to the official coursework structure.
 
 Each assignment involves practical implementations of advanced Java concepts, including object-oriented programming, GUI applications with JavaFX, multithreading, data structures, and network communication.
 
 ## Assignments Breakdown
 
-### **1. mman11 - "Bulls and Cows" Game**
-- A console-based number-guessing game.
-- Implements user input handling and game logic validation.
+### **Maman 11**
+1. **"Bulls and Cows" Game** – Implemented using `JavaFX Dialog` for user interaction.
+2. **Temperature Graph Visualization** – A `JavaFX` application that displays a bar chart representing the average temperature over a year, based on user input.
 
-### **2. mman12 - Temperature Graph Visualization**
-- JavaFX application for visualizing monthly temperature data.
-- Uses bar charts with dynamic color changes.
+### **Maman 12**
+1. **Animal Class Hierarchy** – Implemented `OOP` principles, including class inheritance and `polymorphism`. Demonstrates method overriding and cloning.
+2. **Conway's Game of Life** – A graphical simulation using `JavaFX`, implementing a cellular automaton to model life cycles.
 
-### **3. mman13 - Inheritance and Polymorphism in Animals**
-- Object-oriented hierarchy for animal classifications.
-- Demonstrates inheritance, method overriding, and polymorphism.
+### **Maman 13**
+1. **Hangman Game** – A `JavaFX` GUI application for the Hangman word-guessing game.
+2. **Trivia Game** – A `JavaFX` application that loads trivia questions from a file and allows users to answer multiple-choice questions. Utilizes `file handling` and `GUI components`.
 
-### **4. mman14 - Custom Set Data Structure**
-- Implementation of a `Set` class with operations like union, intersection, and subset checking.
-- Uses generics and `Comparable` interface.
+### **Maman 14**
+1. **Generic Set Implementation** – A `generic` class implementing set operations (`union`, `intersection`, `subset`, `insert`, `iterator`) using `ArrayList`. Also includes user interaction.
+2. **Electronic Calendar Application** – A `JavaFX` GUI displaying a monthly calendar where users can select a day and manage events. Uses `HashMap` or `TreeMap` for storing event data.
 
-### **5. mman15 - Banking System Simulation**
-- Multi-threaded simulation of bank transactions.
-- Implements thread synchronization to manage account balances safely.
+### **Maman 15**
+1. **Bank Account Management System** – A multi-threaded simulation of bank transactions where multiple clerks update account balances. Implements `thread synchronization` to prevent race conditions.
+2. **Parallel Merge Sort** – A system that sorts an array of integers using `multi-threaded` merge sort.
 
-### **6. mman16 - Chat Room Application (Client-Server Model)**
-- A network-based chat application using TCP sockets.
-- Supports multiple clients and real-time messaging.
+### **Maman 16**
+1. **Chat Room (Client-Server Communication)** – A `TCP`-based client-server chatroom where multiple users can join a session. The `JavaFX` GUI includes a text input field, message display area, participant list, and connection controls.
+2. **UDP Connection Tester** – A `UDP` client-server application that sends and receives 10 unique messages to measure connection reliability. Implements `multi-threading`, with one thread for sending messages and another for receiving and displaying responses.
 
 ## How to Run
 Each assignment is self-contained and can be compiled and executed separately. Ensure you have Java installed before running the programs. Instructions for each assignment can be found within its respective folder.
 
 ## Technologies Used
-- Java 8+
-- JavaFX
-- Multithreading & Synchronization
-- Data Structures & Algorithms
-- Networking (TCP & UDP)
+- `JavaFX` (GUI applications)
+- `OOP` (Encapsulation, Inheritance, Polymorphism)
+- `Multithreading & Synchronization`
+- `Generic Programming`
+- `Client-Server Communication (TCP & UDP)`
