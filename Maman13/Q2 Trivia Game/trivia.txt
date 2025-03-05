@@ -1,0 +1,50 @@
+What is the capital of France?
+Paris
+London
+Berlin
+Madrid
+What is the largest planet in our solar system?
+Jupiter
+Earth
+Mars
+Venus
+Which element has the chemical symbol 'O'?
+Oxygen
+Gold
+Iron
+Carbon
+What is the result of 5x6?
+30
+25
+20
+35
+Which language is primarily spoken in Brazil?
+Portuguese
+Spanish
+French
+Italian
+Who wrote "Romeo and Juliet"?
+William Shakespeare
+Charles Dickens
+Mark Twain
+Leo Tolstoy
+What is the boiling point of water at sea level?
+100°C
+90°C
+120°C
+80°C
+What is the primary color of the sun?
+Yellow
+Blue
+Red
+Green
+Which year did World War II end?
+1945
+1942
+1939
+1950
+What is the square root of 64?
+8
+7
+6
+9

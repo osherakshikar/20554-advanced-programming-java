@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TriviaController">
+   <children>
+      <Label fx:id="questionLabel" prefHeight="138.0" prefWidth="701.0" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="firstAnswer" mnemonicParsing="false" onAction="#firstAnswerSelected" prefHeight="68.0" prefWidth="700.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="buttonGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="secondAnswer" mnemonicParsing="false" onAction="#secondAnswerSelected" prefHeight="68.0" prefWidth="700.0" toggleGroup="$buttonGroup">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="thirdAnswer" mnemonicParsing="false" onAction="#thirdAnswerSelected" prefHeight="68.0" prefWidth="700.0" toggleGroup="$buttonGroup">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="fourthAnswer" mnemonicParsing="false" onAction="#fourthAnswerSelected" prefHeight="68.0" prefWidth="700.0" toggleGroup="$buttonGroup">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <HBox prefHeight="72.0" prefWidth="700.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#nextPressed" prefHeight="45.0" prefWidth="233.0" text="Next">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#endPressed" prefHeight="45.0" prefWidth="233.0" text="End Game">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#restartPressed" prefHeight="45.0" prefWidth="233.0" text="Restart">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="scoreLabel" prefHeight="166.0" prefWidth="701.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
