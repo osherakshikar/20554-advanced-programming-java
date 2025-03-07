@@ -24,7 +24,7 @@ Each assignment involves practical implementations of advanced Java concepts, in
 2. **[Trivia Game](/Maman13/Q2%20Trivia%20Game)** – A `JavaFX` application that loads trivia questions from a file and allows users to answer multiple-choice questions. Utilizes `file handling` and `GUI components`.
 
 ### **[Maman 14](/Maman14)**
-1. **[Generic Set Implementation](/Maman14/Q1%20Generic%20Set%20Implemntation)** – A `generic` class implementing set operations (`union`, `intersection`, `subset`, `insert`, `iterator`) using `ArrayList`. Also includes user interaction.
+1. **[Generic Set Implementation](/Maman14/Q1%20Generic%20Set%20Implementation)** – A `generic` class implementing set operations (`union`, `intersection`, `subset`, `insert`, `iterator`) using `ArrayList`. Also includes user interaction.
 2. **[Electronic Calendar Application](/Maman14/Q2%20Electronic%20Calendar%20Application)** – A `JavaFX` GUI displaying a monthly calendar where users can select a day and manage events. Uses `HashMap` for storing event data.
 
 ### **[Maman 15](/Maman15)**
