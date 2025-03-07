@@ -17,7 +17,7 @@ Each assignment involves practical implementations of advanced Java concepts, in
 
 ### **[Maman 12](/Maman12)**
 1. **[Animal Class Hierarchy](/Maman12/Q1%20Animal%20Class%20Hierarchy)** – Implemented `OOP` principles, including class inheritance and `polymorphism`. Demonstrates method overriding and cloning.
-2. **Conway's Game of Life** – A graphical simulation using `JavaFX`, implementing a cellular automaton to model life cycles.
+2. **[Conway's Game of Life](/Maman12/Q2%20Conway's%20Game%20of%20Life)** – A graphical simulation using `JavaFX`, implementing a cellular automaton to model life cycles.
 
 ### **[Maman 13](/Maman13)**
 1. **[Hangman Game](/Maman13/Q1%20Hangman%20Game)** – A `JavaFX` GUI application for the Hangman word-guessing game.
