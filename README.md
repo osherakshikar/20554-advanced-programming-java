@@ -40,3 +40,6 @@ Each assignment is self-contained and can be compiled and executed separately. E
 - `Multithreading & Synchronization`
 - `Generic Programming`
 - `Client-Server Communication (TCP & UDP)`
+
+## Author
+- Osher Akshikar
