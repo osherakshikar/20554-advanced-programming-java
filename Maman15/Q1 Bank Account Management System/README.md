@@ -24,6 +24,3 @@ This program simulates a bank system where multiple bank clerks (threads) proces
 2. Navigate to the project directory
 3. Compile the Java files: `javac *.java`
 4. Run the main class: `java Bank`
-
-## Author
-- Osher Akshikar
