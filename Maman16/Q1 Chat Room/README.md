@@ -13,10 +13,10 @@ A simple multi-user chat application built with Java and JavaFX that allows mult
 
 ## 🛠️ Technology Stack
 
-- ☕ Java  
-- 🎭 JavaFX for the UI  
-- 📡 Socket programming for networking  
-- 🔄 Multi-threading for concurrent connections  
+-  Java  
+-  JavaFX for the UI  
+-  Socket programming for networking  
+-  Multi-threading for concurrent connections  
 
 ## 📸 Screenshots
 ![Screenshot 2025-03-11 140607](https://github.com/user-attachments/assets/83d1c1ec-8267-476c-941a-0fa6cef73240)
@@ -28,32 +28,32 @@ A simple multi-user chat application built with Java and JavaFX that allows mult
 
 ### 📌 Prerequisites
 
-- ☕ Java JDK 8 or newer with JavaFX support  
-- 🏗️ Maven (optional, if you want to build from source)  
+-  Java JDK 8 or newer with JavaFX support  
+-  Maven (optional, if you want to build from source)  
 
 ### 🚀 Running the Server
 
-1. 🏁 Compile and run the Server class  
-2. 📡 The server will display its IP address and will listen on port **9090**  
+1.  Compile and run the Server class  
+2.  The server will display its IP address and will listen on port **9090**  
 
 ### 🎮 Running the Client
 
-1. 🏁 Compile and run the HelloApplication class  
-2. 🌐 Enter the server's IP address (or use `"localhost"` if running on the same machine)  
-3. 🔗 Click "Connect" and enter your username when prompted  
-4. 🗨️ Start chatting!  
+1.  Compile and run the HelloApplication class  
+2.  Enter the server's IP address (or use `"localhost"` if running on the same machine)  
+3.  Click "Connect" and enter your username when prompted  
+4.  Start chatting!  
 
 ## 🌍 Network Setup
 
 To connect multiple devices:  
-- 📶 Make sure all devices are on the same network  
-- 🔓 Allow TCP traffic on port **9090**  
-- 🌍 Use the server's IP address when connecting  
+-  Make sure all devices are on the same network  
+-  Allow TCP traffic on port **9090**  
+-  Use the server's IP address when connecting  
 
 ## 📂 Project Structure
 
-- `📡 Server.java` - The chat server that accepts client connections  
-- `🧵 ServerThread.java` - Handles individual client communication  
-- `🖥️ HelloApplication.java` - JavaFX client application entry point  
-- `🎛️ ChatClientController.java` - Controller for the JavaFX UI  
-- `🔄 ChatClientThread.java` - Handles network communication for the client  
+- ` Server.java` - The chat server that accepts client connections  
+- ` ServerThread.java` - Handles individual client communication  
+- ` HelloApplication.java` - JavaFX client application entry point  
+- ` ChatClientController.java` - Controller for the JavaFX UI  
+- ` ChatClientThread.java` - Handles network communication for the client  
