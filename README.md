@@ -32,7 +32,7 @@ Each assignment involves practical implementations of advanced Java concepts, in
 2. **[Parallel Merge Sort](/Maman15/Q2%20Parallel%20Merge%20Sort)** – A system that sorts an array of integers using `multi-threaded` merge sort.
 
 ### **Maman 16** 🌐
-1. **Chat Room (Client-Server Communication)** – A `TCP`-based client-server chatroom where multiple users can join a session. The `JavaFX` GUI includes a text input field, message display area, participant list, and connection controls.
+1. **[Chat Room (Client-Server Communication)](/Maman16/Q1%20Chat%20Room)** – A `TCP`-based client-server chatroom where multiple users can join a session. The `JavaFX` GUI includes a text input field, message display area, participant list, and connection controls.
 2. **UDP Connection Tester** – A `UDP` client-server application that sends and receives 10 unique messages to measure connection reliability. Implements `multi-threading`, with one thread for sending messages and another for receiving and displaying responses.
 
 ## 🚀 How to Run
