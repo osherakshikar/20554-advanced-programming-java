@@ -1,0 +1,64 @@
+/* chat-style.css */
+
+/* General styling */
+* {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Chat area styling */
+.text-area {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005a9e;
+}
+
+.button:disabled {
+    -fx-background-color: #ccc;
+    -fx-text-fill: #666;
+}
+
+/* TextField styling */
+.text-field {
+    -fx-background-color: #fff;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Label styling */
+.label {
+    -fx-text-fill: #333;
+}
+
+/* ListView styling */
+.list-view {
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Status label styling */
+.label.status-label {
+    -fx-text-fill: #0078d7;
+    -fx-font-weight: bold;
+}
