@@ -39,7 +39,7 @@ This repository includes solutions to assignments from the *Advanced Java Progra
 
 ### [Maman 16](/Maman16)
 - [Chat Room](/Maman16/Q1%20Chat%20Room) – TCP-based client-server chat with JavaFX UI  
-- **UDP Connection Tester** – UDP client-server tester with multithreading
+- **[UDP Connection Tester](/Maman16/Q2%20UDP%20Connection%20Tester)** – UDP client-server tester with multithreading
 
 ## Running the Projects
 
